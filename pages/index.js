@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Post from '../components/post'
-import styles from '../styles/home.module.css'
+import Styles from '../styles/home.module.css'
 
 export async function getStaticProps() {
   // fetch list of posts
@@ -17,7 +17,7 @@ export async function getStaticProps() {
 
 export default function IndexPage({ postList }) {
   return (
-    <main className={styles.home}>
+    <main className={Styles.home}>
       <Head>
         <title>Home page</title>
       </Head>
