@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Post from '../components/post'
-import Styles from '../styles/home.module.css'
+import Styles from '../styles/home.modules.css'
 
 export async function getStaticProps() {
   // fetch list of posts
